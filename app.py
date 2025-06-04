@@ -115,7 +115,7 @@ st.markdown("""
 Aplikasi ini menggunakan model Machine Learning untuk membantu mendeteksi potensi skizofrenia berdasarkan data yang dimasukkan.
 **Disclaimer:** Aplikasi ini adalah alat bantu dan tidak menggantikan diagnosis profesional dari tenaga medis.
 
-Contoh Item dalam Positive Subscale PANSS: 
+Contoh Item dalam Positive Subscale PANSS:
 Halusinasi:
 Perilaku Halusinasi: Apakah pasien memiliki perilaku yang menunjukkan adanya halusinasi (misalnya berbicara sendiri atau melihat sesuatu yang tidak ada)?
 Halusinasi Visual: Apakah pasien mengalami halusinasi visual (misalnya melihat gambar atau orang yang tidak ada)?

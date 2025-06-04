@@ -114,6 +114,33 @@ st.title("🩺 Aplikasi Deteksi Dini Skizofrenia")
 st.markdown("""
 Aplikasi ini menggunakan model Machine Learning untuk membantu mendeteksi potensi skizofrenia berdasarkan data yang dimasukkan.
 **Disclaimer:** Aplikasi ini adalah alat bantu dan tidak menggantikan diagnosis profesional dari tenaga medis.
+
+Contoh Item dalam Positive Subscale PANSS: 
+Halusinasi:
+Perilaku Halusinasi: Apakah pasien memiliki perilaku yang menunjukkan adanya halusinasi (misalnya berbicara sendiri atau melihat sesuatu yang tidak ada)?
+Halusinasi Visual: Apakah pasien mengalami halusinasi visual (misalnya melihat gambar atau orang yang tidak ada)?
+Halusinasi Auditori: Apakah pasien mengalami halusinasi auditori (misalnya mendengar suara yang tidak ada)?
+Delusi:
+Delusi Penganiayaan: Apakah pasien memiliki delusi bahwa dirinya dianiaya atau dikorbankan?
+Delusi Kecurigaan: Apakah pasien memiliki delusi bahwa orang lain berusaha menyakitinya atau menyabotase dirinya?
+Perilaku yang Mencurigakan:
+Perilaku yang Mencurigakan: Apakah pasien memiliki perilaku yang mencurigakan atau tidak wajar?
+Disorganisasi Pemikiran:
+Disorganisasi Pemikiran: Apakah pasien mengalami kesulitan untuk berpikir secara teratur dan rasional?
+Disorganisasi Bahasa: Apakah pasien mengalami kesulitan dalam berbicara secara jelas dan terstruktur?
+Kegembiraan:
+Kegembiraan yang Tidak Wajar: Apakah pasien mengalami kegembiraan atau euforia yang tidak wajar?
+Kekuatan emosi yang berlebihan: Apakah pasien memiliki emosi yang terlalu kuat dan tidak terkontrol? 
+
+Contoh Item dalam Negative Subscale PANSS:
+Ekspresi emosi datar (flat affect):
+Kurangnya perubahan ekspresi wajah dan perubahan suara dalam konteks yang memicu respon emosional.
+Kurangnya bicara (alogia):
+Menyatakan sedikit informasi, meskipun ada kesempatan untuk berbicara dengan detail.
+Kurangnya motivasi dan minat (avolition/apathy):
+Kurangnya kemampuan untuk memulai dan melanjutkan kegiatan, termasuk kurangnya minat dalam kegiatan yang biasanya disukai.
+Kurangnya interaksi sosial:
+Kurangnya kehendak untuk berinteraksi dengan orang lain, termasuk kurangnya inisiatif untuk memulai percakapan atau terlibat dalam kegiatan sosial.
 """)
 st.divider()
 

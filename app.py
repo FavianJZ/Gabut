@@ -184,7 +184,7 @@ else:
 
 
 st.sidebar.divider()
-model_choice = st.sidebar.selectbox("Pilih Model:", ("Random Forest", "Logistic Regression"))
+model_choice = st.sidebar.selectbox("Pilih Model:", ("Random Forest"))
 
 if st.sidebar.button("🔍 Deteksi Sekarang"):
     if user_input_list and actual_feature_names_from_training and log_reg_model and rf_model and scaler:

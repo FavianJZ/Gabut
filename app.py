@@ -147,10 +147,10 @@ def get_user_input(feature_names_list_from_training):
         inputs['Suicide_Attempt'] = st.sidebar.selectbox("Riwayat Percobaan Bunuh Diri?", options=[("Ya", 1), ("Tidak", 0)], format_func=lambda x: x[0])[1]
 
     if 'Positive_Symptom_Score' in feature_names_list_from_training:
-        inputs['Positive_Symptom_Score'] = st.sidebar.slider("Skor Gejala Positif", min_value=0, max_value=50, value=10, step=1, help="Contoh: PANSS (Positive and Negative Syndrome Scale) Positive Subscale")
+        inputs['Positive_Symptom_Score'] = st.sidebar.slider("Skor Gejala Positif", min_value=0, max_value=50, value=10, step=1, help="Contoh: PANSS Positive Subscale (Positive Syndrome Scale)")
     
     if 'Negative_Symptom_Score' in feature_names_list_from_training:
-        inputs['Negative_Symptom_Score'] = st.sidebar.slider("Skor Gejala Negatif", min_value=0, max_value=50, value=10, step=1, help="Contoh: PANSS (Positive and Negative Syndrome Scale) Negative Subscale")
+        inputs['Negative_Symptom_Score'] = st.sidebar.slider("Skor Gejala Negatif", min_value=0, max_value=50, value=10, step=1, help="Contoh: PANSS Negative Subscale (Negative Syndrome Scale)")
 
     if 'GAF_Score' in feature_names_list_from_training:
         inputs['GAF_Score'] = st.sidebar.slider("GAF Score (Global Assessment of Functioning)", min_value=0, max_value=100, value=50, step=1, help="Skor 1-100, semakin tinggi semakin baik fungsinya.")
